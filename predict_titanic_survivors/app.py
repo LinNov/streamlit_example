@@ -8,7 +8,7 @@ import streamlit as st
 
 import pickle
 
-df = pd.read_csv("./data/train.csv")
+df = pd.read_csv("/data/train.csv")
 
 MODEL_FILE = "./artefacts/clf_fitted.bin"
 
